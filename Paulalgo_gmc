@@ -1,0 +1,31 @@
+ ALGORITHME_COMPTER_CARACTERS
+    VAR 
+    WORDS:INTEGER;
+    CaracterCont:INTEGER;
+    sentences:INTEGER
+
+    //the length of the sentences
+    BEGIN
+    CaracterCont:=str.length;
+
+    END
+
+    //The number of words in the sentence
+    
+    BEGIN
+    for(i=0; i<str.length; i++}){
+          if(str[i]==" "){
+            sentences++
+             }
+             sentences++;
+    END
+    //The number of vowels in the sentences
+    vowels:=["a","e","i","o","u","y"];
+    FOR i FROM 0 TO length(sentence) STEP 1 DO
+            FOR j FROM 0 TO length(vowels) STEP 1 DO
+                IF (sentence[i]==vowels[j]) THEN
+                     numberOfVowels++;
+                END_IF
+            END_FOR
+        END_FOR
+
